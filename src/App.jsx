@@ -4,6 +4,7 @@ import Introduction from './components/Introduction'
 import Skills from './components/Skills'
 import Education from './components/Education'
 import Courses from './components/Courses'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,11 +17,11 @@ function App() {
             <Skills/>
             <Education/>
             <Courses/>
+            <Footer/>
           </div>
         </main>
       </body>
     </html>
-    
   )
 }
 
