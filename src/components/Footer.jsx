@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="flex items-center justify-between border-t-2 border-t-slate-200 py-8">
+        <div className="flex items-center justify-between border-t-2 border-t-slate-200 pt-8">
             <p>© 2026 William Hok</p>
             <p>Build with 
                 <a href="https://react.dev/">
