@@ -1,7 +1,7 @@
 function Skills() {
     return (
         <section>
-            <h2 className="font-sans font-medium text-xs uppercase text-gray-400">Skills</h2>
+            <h2 className="font-sans font-medium text-xs uppercase text-gray-400 pb-2">Skills</h2>
             <ul className="flex flex-wrap items-center gap-3">
                 <li>
                     <span className="inline-flex items-center gap-1 px-2 py-1 h-6 bg-zinc-100 rounded-full text-xs font-medium">

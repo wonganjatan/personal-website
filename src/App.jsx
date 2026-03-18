@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Introduction from './components/Introduction'
 import Skills from './components/Skills'
+import Education from './components/Education'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
           <div className='mx-auto pt-6 pb-12 max-w-xl space-y-12 sm:py-10'>
             <Introduction/>
             <Skills/>
+            <Education/>
           </div>
         </main>
       </body>

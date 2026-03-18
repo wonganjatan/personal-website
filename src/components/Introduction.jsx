@@ -3,7 +3,7 @@ import { useState } from "react"
 function Introduction() {
     return (
         <section>
-            <h1 className="text-black">
+            <h1>
                 Hi, I am <span className="border-b border-current">William Hok</span>
             </h1>
             <div className="">
