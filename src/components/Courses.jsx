@@ -25,7 +25,7 @@ function Courses() {
     return (
         <div>
             <h2 className="font-sans font-medium text-xs uppercase text-gray-400 pb-2">Courses</h2>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-between">
                 {courses.map((course, index) => {
                     let statusColor = ""
                     if (course.status === "Completed") {
