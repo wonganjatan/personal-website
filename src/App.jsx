@@ -3,6 +3,7 @@ import './App.css'
 import Introduction from './components/Introduction'
 import Skills from './components/Skills'
 import Education from './components/Education'
+import Courses from './components/Courses'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             <Introduction/>
             <Skills/>
             <Education/>
+            <Courses/>
           </div>
         </main>
       </body>
