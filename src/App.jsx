@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Introduction from './components/Introduction'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <main className='min-h-screen flex justify-center items-start px-6 py-10'>
           <div className='mx-auto pt-6 pb-12 max-w-xl space-y-12 sm:py-10'>
             <Introduction/>
+            <Skills/>
           </div>
         </main>
       </body>
