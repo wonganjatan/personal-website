@@ -13,7 +13,7 @@ function App() {
     <html>
       <body className='h-full font-mono flex justify-center px-20 bg-gradient-to-b from-slate-300 to-white'>
         <main className='min-h-screen flex justify-center items-start px-6 py-10'>
-          <div className='mx-auto pt-6 pb-12 max-w-xl space-y-12 sm:py-10'>
+          <div className='mx-auto pt-6 pb-12 max-w-xl'>
             <Introduction/>
             <Skills/>
             <Education/>
