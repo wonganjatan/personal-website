@@ -2,14 +2,20 @@ function Education() {
     return (
         <section>
             <h2 className="font-sans font-medium text-xs uppercase text-gray-400 pb-2">Education</h2>
-            <div>
-                <a href="https://www.rmit.edu.au/">
-                    <span className="text-lg hover:text-yellow-500">RMIT University</span>
-                </a>
-                <div className="flex flex-col">
-                    <span className="text-sm">Jan 2024 - Dec 2027</span>
-                    <span className="text-xs">GPA: 2.7</span>
-                    <span className="text-xs">WAM: 72</span>
+            <div className="p-8 shadow-2xl rounded-2xl bg-gradient-to-br from-blue-300 to-white">
+                <div className="flex items-center justify-between">
+                    <a href="https://www.rmit.edu.au/">
+                        <span className="text-lg hover:text-yellow-500 inline-flex items-center gap-4">
+                            <svg className="shrink-0 size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--<path d="M241.3-13c-11.4-2.3-23.1-2.3-34.5 0L19.3 24.5C8.1 26.7 0 36.6 0 48 0 58.3 6.5 67.3 16 70.6L16 144 .3 222.6c-.2 .9-.3 1.9-.3 2.9 0 8 6.5 14.6 14.6 14.6l34.9 0c8 0 14.6-6.5 14.6-14.6 0-1-.1-1.9-.3-2.9L48 144 48 77.3 96 86.9 96 144c0 70.7 57.3 128 128 128s128-57.3 128-128l0-57.1 76.7-15.3C439.9 69.3 448 59.4 448 48s-8.1-21.3-19.3-23.5L241.3-13zM224 224c-44.2 0-80-35.8-80-80l160 0c0 44.2-35.8 80-80 80zM120.1 320.1C58.7 348.3 16 410.3 16 482.3 16 498.7 29.3 512 45.7 512l154.3 0 0-146-57.4-43c-6.5-4.9-15.2-6.2-22.6-2.8zM248 512l154.3 0c16.4 0 29.7-13.3 29.7-29.7 0-72-42.7-134-104.1-162.1-7.4-3.4-16.1-2.1-22.6 2.8l-57.4 43 0 146z"/></svg>
+                            RMIT University
+                        </span>
+                    </a>
+                    <p className="text-lg">Jan 2024 - Dec 2027</p>
+                </div>
+                
+                <div className="flex justify-between text-lg">
+                    <p>GPA: 2.7</p>
+                    <p>WAM: 72</p>
                 </div>
             </div>
         </section>
