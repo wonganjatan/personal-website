@@ -3,7 +3,7 @@ import { useState } from "react"
 function Introduction() {
     return (
         <section>
-            <div className="bg-white border border-slate-200 p-8 rounded-2xl shadow-2xl">
+            <div className="bg-gradient-to-t from-slate-200 to-white border border-slate-200 p-8 rounded-2xl shadow-2xl">
                 <h1>
                     Hi, I am <span className="border-b border-current">William Hok</span>
                 </h1>
