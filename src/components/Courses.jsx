@@ -35,7 +35,7 @@ function Courses() {
                     }
 
                     return (
-                    <div key={index} className="flex flex-col justify-between border rounded-2xl p-4 w-60 hover:shadow-xl transition-shadow">
+                    <div key={index} className="flex flex-col justify-between border rounded-2xl p-4 w-60 hover:shadow-xl hover:opacity-75 transition-shadow">
                         <h2 className="text-lg">{course.name}</h2>
                         <div className="flex justify-between items-center">
                             <p className="text-sm">Grade: {course.grade}</p>
