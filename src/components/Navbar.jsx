@@ -1,8 +1,6 @@
 import { useState } from "react"
 
 function NavBar() {
-    const [isOpen, setIsOpen] = useState(false)
-
     return (
         <nav className="fixed w-full bg-gray-900 bg-opacity-90">
             <div className="px-6 flex justify-between items-center h-16">
