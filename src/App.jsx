@@ -1,13 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import NavBar from './components/Navbar'
+import Introduction from './components/Introduction'
 
 function App() {
 
   return (
-    <div className='bg-gray-950 text-white min-h-screen'>
-      <NavBar/>
-    </div>
+    <html>
+      <body className='h-full font-mono flex justify-center px-20'>
+        <main className='min-h-screen flex justify-center items-start px-6 py-10'>
+          <div className='mx-auto pt-6 pb-12 max-w-xl space-y-12 sm:py-10'>
+            <Introduction/>
+          </div>
+        </main>
+      </body>
+    </html>
+    
   )
 }
 
