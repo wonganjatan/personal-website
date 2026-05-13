@@ -1,16 +1,44 @@
-# React + Vite
+# Project Name
+A personal portofolio website showcasing my skills, education, and contact information
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+https://personal-website-flax-six-45.vercel.app/
 
-Currently, two official plugins are available:
+## About
+Hi, I am William Hok
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+A passionate RMIT Computer Science student from Indonesia. I am interested to build scalable applications, learning technologies, and contributing to projects that solve real world problems.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
+### Hero
+Introduction and links to GitHub and LinkedIn
+### Skills
+Tech stack including HTML, CSS, Tailwind, JavaScript, React, Node.js
+### Education
+RMIT University with course list and grades
+### Contact
+Email and social links
 
-## Expanding the ESLint configuration
+## Stack
+- React
+- Tailwind CSS
+- Deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+```
+# clone the repo
+git clone https://github.com/wonganjatan/personal-website.git
+
+# move to the folder
+cd personal-website
+
+# install dependencies
+npm install
+
+# run the app
+npm run dev
+
+# open the app
+http://localhost:5173/
+```
