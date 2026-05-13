@@ -16,6 +16,9 @@ function Introduction() {
                 <p className="pt-4">
                     Find me on <a href="https://github.com/wonganjatan" target="_blank" className="text-blue-500 hover:border-b hover:border-blue-500 transition-all duration-300 ease-in-out">GitHub</a> and <a href="https://www.linkedin.com/in/william-hok-078aa63b7/" target="blank" className="text-blue-500 hover:border-b hover:border-blue-500 transition-all duration-300 ease-in-out">LinkedIn</a>
                 </p>
+                <p className="pt-4">
+                    Download <a href="/public/Software Engineer Resume.pdf" target="_blank" className="text-blue-500 hover:border-b hover:border-blue-500 transition-all duration-300 ease-in-out">Resume</a>
+                </p>
             </div>
             
         </section>
