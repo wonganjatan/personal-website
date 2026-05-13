@@ -10,7 +10,7 @@ function Education() {
                             RMIT University
                         </span>
                     </a>
-                    <p className="text-lg">Jan 2024 - Dec 2027</p>
+                    <p className="text-lg">Mar 2024 - Nov 2027</p>
                 </div>
                 
                 <div className="flex justify-between text-lg">
