@@ -12,11 +12,6 @@ function Education() {
                     </a>
                     <p className="text-lg">Mar 2024 - Nov 2027</p>
                 </div>
-                
-                <div className="flex justify-between text-lg">
-                    <p>GPA: 2.7</p>
-                    <p>WAM: 72</p>
-                </div>
             </div>
         </section>
     )
