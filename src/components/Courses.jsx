@@ -16,10 +16,14 @@ function Courses() {
         { name: "Further Programming", grade: "HD", status: "Completed" },
         { name: "Software Eng: Process & Tools", grade: "DI", status: "Completed" },
         { name: "Software Testing", grade: "DI", status: "Completed" },
-        { name: "Full Stack Development", grade: "N/A", status: "In Progress" },
-        { name: "Machine Learning", grade: "N/A", status: "In Progress" },
-        { name: "Innov Ecosys & Future of Work", grade: "N/A", status: "In Progress" },
-        { name: "Database Applications", grade: "N/A", status: "In Progress" },
+        { name: "Full Stack Development", grade: "HD", status: "Completed" },
+        { name: "Machine Learning", grade: "DI", status: "Completed" },
+        { name: "Innov Ecosys & Future of Work", grade: "DI", status: "Completed" },
+        { name: "Database Applications", grade: "HD", status: "Completed" },
+        { name: "Programming Project 1", grade: "N/A", status: "In Progress" },
+        { name: "Operating System Principles", grade: "N/A", status: "In Progress" },
+        { name: "Web Development Technologies", grade: "N/A", status: "In Progress" },
+        { name: "Systems Architecture and Design", grade: "N/A", status: "In Progress" },
     ];
 
     return (
