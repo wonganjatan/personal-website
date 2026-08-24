@@ -2,7 +2,7 @@ function Education() {
     return (
         <section>
             <h2 className="font-sans font-medium text-lg uppercase text-gray-400 pb-2">Education</h2>
-            <div className="p-8 shadow-2xl rounded-2xl bg-gradient-to-br from-blue-300 to-white">
+            <div className="p-8 shadow-2xl rounded-2xl bg-linear-to-br from-blue-300 to-white">
                 <div className="flex items-center justify-between">
                     <a href="https://www.rmit.edu.au/">
                         <span className="text-lg hover:text-yellow-500 inline-flex items-center gap-4">
