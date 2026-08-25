@@ -3,7 +3,7 @@ export type Project = {
     description: string
     longDescription: string
     techStack: string[]
-    repoUrl: string
+    repoUrl?: string
     liveUrl?: string
     iamgeUrl?: string
 }
