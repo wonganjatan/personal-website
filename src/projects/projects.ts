@@ -26,14 +26,4 @@ export const DEFAULT_PROJECTS: Project[] = [
         "Implemented core features including user authentication, event creation/booking logic, and event filtering within a 6-person Agile/Scrum team across 4+ sprints. Built an admin dashboard for managing events and scheduling, and developed responsive frontend pages using Thymeleaf. Integrated MySQL for data persistence and containerized the application and database with Docker for consistent deployment across environments.",
         techStack: ["Java Spring Boot", "Thymeleaf", "MySQL", "Docker"],
     },
-    {
-        title: "Personal Website",
-        description:
-        "Responsive personal website showcasing projects via interactive component-based cards.",
-        longDescription:
-        "Built and deployed a responsive personal website using React and Vite, showcasing projects via interactive component-based cards.",
-        techStack: ["React", "Vite", "Tailwind CSS"],
-        repoUrl: "https://github.com/wonganjatan/personal-website",
-        liveUrl: "https://personal-website-flax-six-45.vercel.app/",
-    }
 ]
